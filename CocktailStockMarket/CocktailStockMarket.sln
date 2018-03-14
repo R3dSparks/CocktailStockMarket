@@ -4,6 +4,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 15.0.27130.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CocktailStockMarket.Presentation", "CocktailStockMarket.Presentation\CocktailStockMarket.Presentation.csproj", "{215E1C1D-72D6-4EF1-AA17-78BFBB97B3FC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{48AE9047-D10F-48DA-8619-1759AA7700B0} = {48AE9047-D10F-48DA-8619-1759AA7700B0}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CocktailStockMarket.Business", "CocktailStockMarket.Business\CocktailStockMarket.Business.csproj", "{48AE9047-D10F-48DA-8619-1759AA7700B0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +20,10 @@ Global
 		{215E1C1D-72D6-4EF1-AA17-78BFBB97B3FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{215E1C1D-72D6-4EF1-AA17-78BFBB97B3FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{215E1C1D-72D6-4EF1-AA17-78BFBB97B3FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48AE9047-D10F-48DA-8619-1759AA7700B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48AE9047-D10F-48DA-8619-1759AA7700B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48AE9047-D10F-48DA-8619-1759AA7700B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48AE9047-D10F-48DA-8619-1759AA7700B0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
